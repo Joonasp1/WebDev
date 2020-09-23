@@ -1,0 +1,53 @@
+body{
+    background-color: midnightblue;
+}
+
+.loginBox{
+
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px;
+    background-color: rgb(177, 177, 177);
+    text-align: center;
+
+}
+
+header{
+
+    display: inline-block;
+    width: 100%;
+    background-color: lightsteelblue;
+    margin-bottom: 50px;
+
+}
+
+.searchBar{
+    text-align: center;
+}
+
+.searchBar + img{
+
+    float: right;
+
+}
+
+.loginBox > img{
+
+    float: left;
+
+}
+
+.postHolder{
+
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 60px;
+    background-color: rgb(177, 177, 177);
+
+}
+
+.searchBar + img{
+
+    float: right;
+
+}
