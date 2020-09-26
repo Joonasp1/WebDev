@@ -42,7 +42,8 @@ header{
     margin-left: 10%;
     margin-right: 10%;
     padding: 60px;
-    background-color: rgb(177, 177, 177);
+    #background-color: rgb(177, 177, 177);
+    background-color: white;
 
 }
 
@@ -50,4 +51,13 @@ header{
 
     float: right;
 
+}
+
+.post {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px 1px black;
 }
