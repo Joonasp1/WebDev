@@ -1,0 +1,128 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #1677bd;
+    width : 100%;
+    margin:0px;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    left:0px;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 50px;
+    background-color: #1677bd;
+}
+
+header:hover {
+    box-shadow: 0px 3px 10px #989797;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+header nav {
+    background-color: #ffffff;
+}
+
+.searchBar {
+    text-align: center;
+    height: 30px;
+    flex-grow: 4;
+    padding: 10px;
+}
+
+nav div.searchBar > input {
+    box-sizing: border-box;
+    height: 30px;
+    width: 40%;
+    margin-right:2px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+nav div.searchBar > button {
+    box-sizing: border-box;
+    height: 30px;
+    width: 15%;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    background-color: #0d579b;
+    color: white;
+    border-radius: 5px;
+}
+
+nav img {
+    padding-left: 20px;
+    padding-right: 15px;
+    height: 35px;
+    width: auto;
+}
+
+#loginBox{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 0 5px 0px black;
+}
+
+#postHolder{
+    margin-top:15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 60px;
+    background-color: grey;
+    background-color: white;
+    box-shadow: 0 0 5px 0px black;
+}
+
+.post {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px 1px grey;
+    border-radius: 5px;
+}
+
+.post_header {
+    height: 30px;
+    padding: 10px;
+}
+
+.post_header > img {
+    height: 100%;
+}
+
+.post_header > span {
+    float: right;
+    color:grey;
+    font-style: italic;
+    padding-top: 5px;
+}
+
+.post_footer {
+    margin: 10px;
+}
+
+.like {
+    width: 40px;
+    background-color: #0d579b;
+    padding:7px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.like:hover {
+    box-shadow: 0px 3px 10px grey;
+    cursor: pointer;
+}

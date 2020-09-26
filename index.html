@@ -2,71 +2,64 @@
 <html>
 
 <head>
-
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="res/css/style.css">
+    <meta charset="UTF-8">
+    <title>postIt!</title>
 </head>
 
 <body>
 
-    <header>
-
-        <img src="img/logo.png" alt="logo" width="50" , height="45">
+<header>
+    <nav>
+        <img id="logo" src="res/images/logo.png" alt="logo" width="50" , height="45">
         <!--Logo vasakul üleval nurgas-->
-
         <div class="searchBar">
             <!--Üleval keskel otsinguriba-->
-
-            <input type="text">
-            <button class="searchButton">Search</button>
-
+            <input type="text"><button class="searchButton">Search</button>
         </div>
+        <img src="res/images/profile.png" alt="profile">
+    </nav>
+</header>
 
-        <img src="img/profile.png" alt="profile" , height="50" , width="50">
-
-    </header>
-
-    <div class="postHolder">
-        <!--Koht, kus kõik postitused on (Valge taust)-->
-
-        <div class="post">
-            <!--Esimene postitus ülevalt (ehk saab saab teha reageeriva kasti, et ei peaks kolme classi kasutama?)-->
-
-                <img src="img/screenshot1.png", height=100%, width=100%>
-
-            <div class="postHeader">
-                <!--Kuna kõikidel postitustel on sama header, siis saab julgelt ühe classi alla panna-->
-
-                <h1> I think it's going to rain </h1>
-
-            </div>
-
+<div id="postHolder">
+    <!--Koht, kus kõik postitused on (Valge taust)-->
+    <div class="post">
+        <!--Esimene postitus ülevalt (ehk saab saab teha reageeriva kasti, et ei peaks kolme classi kasutama?)-->
+        <div class="post_header">
+            <img src="res/images/profile.png" alt="profile">
+            <span>Sep 18 2020, 15:16</span>
         </div>
-
-        <div class="post">
-
-            <div class="postHeader">
-
-                <h1> Which weighs more, a pound of feathers or a pound of bricks? </h1>
-
-            </div>
-
+        <img src="res/images/screenshot1.png", height=100%, width=100%>
+        <div class="post_footer">
+            <!--Kuna kõikidel postitustel on sama header, siis saab julgelt ühe classi alla panna-->
+            <h2> I think it's going to rain </h2>
         </div>
-
-        <div class="post">
-
-                <img src="img/screenshot2.png", height=100%, width=100%>
-
-            <div class="postHeader">
-
-                <h1> Felt cute, might delete later </h1>
-
-            </div>
-
-        </div>
-
+        <img class="like" src="res/images/like.png">
     </div>
 
-</body>
+    <div class="post">
+        <div class="post_header">
+            <img src="res/images/profile.png" alt="profile">
+            <span>Sep 18 2020, 15:15</span>
+        </div>
+        <div class="post_footer">
+            <h2> Which weighs more, a pound of feathers or a pound of bricks? </h2>
+        </div>
+        <img class ="like" src="res/images/like.png">
+    </div>
 
+    <div class="post">
+        <div class="post_header">
+            <img src="res/images/profile.png" alt="profile">
+            <span>Sep 18 2020, 14:21</span>
+        </div>
+        <img src="res/images/screenshot2.png", height=100%, width=100%>
+        <div class="post_footer">
+            <h2> Felt cute, might delete later </h2>
+        </div>
+        <img class="like" src="res/images/like.png">
+    </div>
+</div>
+
+</body>
 </html>
