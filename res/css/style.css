@@ -157,3 +157,7 @@ br + input[type=button]{
     font-size: large;
     font-weight: bold;
 }
+
+.login_button:hover {
+    cursor: pointer;
+}
